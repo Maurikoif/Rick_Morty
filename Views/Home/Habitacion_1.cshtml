@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Habitacion 1";
+}
+<Body class="Habitacion1">
+<div class="text-center">
+<h1>@ViewData["Title"]</h1>
+<p> ¿Que sentimiento queria expresar Rick al decir su famosa frase "Wubba lubba dub dub"? </p>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zkIqz2U6Vc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<form method= "post" action='@Url.Action("Habitacion")'>
+<input type= "text" name = "clave" required>
+<input type="submit" value="Validar">
+<input type="hidden" name="Sala" value=1>
+</form>
+
+ <button onclick="alert('Pista 1: El significadode la frase se lo explico hombre pajaro a Morty')">Pista 1</button>
+  <button onclick="alert('Pista 2: Con esta frase Rick pedia ayuda por lo que sentia')">Pista 2</button>
+  <div>
+  </body>

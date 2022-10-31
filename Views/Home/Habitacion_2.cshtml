@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Habitacion 2";
+}
+<Body class="Habitacion2">
+<div class="text-center">
+<h1>@ViewData["Title"]</h1>
+<p> ¿Cual es el nombre del mejor amigo de Rick Sanchez? </p>
+<div class="video2">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-jGRjR2WBN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<form method= "post" action='@Url.Action("Habitacion")'>
+<input type= "text" name = "clave" required>
+<input type="submit" value="Validar">
+<input type="hidden" name="Sala" value=2>
+</form>
+
+ <button onclick="alert('Pista : Es mitad animal mitad hombre')">Pista</button>
+  <div>
+  </body>

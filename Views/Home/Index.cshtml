@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+<style>
+    h1 { color: #FFFFFF; }
+    P { color: #FFFFFF; }
+  </style>
+  </head>
+<Body class="Pagina_Principal">
+<div class="text-center">
+    <h1 class="display-4">Sala de escape Rick & Morty</h1>
+    <p>Bienvenidos a la primer sala de escape de Rick & Morty, espero que la disfruten.</p>
+</div>
+<div class="text-center">
+<a href='@Url.Action("Comenzar", "Home")'class="btn btn-dark">
+          <span class="glyphicon glyphicon-play"></span> JUGAR
+        </a>
+</div>
+</Body>
